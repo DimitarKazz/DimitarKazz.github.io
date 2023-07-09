@@ -1,0 +1,264 @@
+body {
+    font-family: 'Agdasima', sans-serif;
+    background-image: url("./images/mavrovo-lakeview.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    width: 96%;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    margin: 0;
+}
+
+.nav-btn {
+    font-family: 'Agdasima', sans-serif;
+    padding: 12px 65px;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    background-color: rgb(133, 125, 125);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav-btn:hover {
+    transition: 0.3s;
+    background-color: rgb(63, 61, 61);
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-weight: bolder;
+    padding: 0;
+    margin: 20px;
+}
+
+section {
+    display: flex;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.left-section {
+    width: 87%;
+    padding: 0px 50px;
+}
+
+.left-section p {
+    font-size: 25px;
+}
+
+.right-section {
+    width: 13%;
+}
+
+.right-section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-section-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-section-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-section-logo img {
+    transition: 0.3s;
+}
+
+.right-section-logo img:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+h3 {
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+}
+
+.footer-info {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0px 0px;
+}
+
+.right-footer p {
+    font-size: 30px;
+}
+
+.right-footer p a {
+    color: rgb(255, 255, 255);
+}
+
+.right-footer {
+    width: 70%;
+    padding-top: 0px;
+    margin-left: 00px;
+    margin-bottom: 0px;
+}
+
+.left-footer {
+    width: 30%;
+    padding: 10px 50px;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.left-footer p {
+    align-items: center;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-bottom: 0px;
+}
+
+.left-footer div iframe {
+    width: 360px;
+    height: 260px;
+    
+}
+
+.table-index, th, td {
+        border: 1px solid rgb(255, 255, 255);
+        height: 40px;
+       font-size: x-large;
+       text-align: center;
+}
+
+.table-index {
+        backdrop-filter: blur(10px);
+        width: 600px;
+        height: 400px;
+        margin-left: 320px;
+}
+
+.achievments{
+    display: flex;
+}
+
+.left-achievments {
+    font-size: xx-large;
+    width: 50%;
+}    
+
+.right-achievments {
+    font-size: xx-large;
+    width: 50%;
+}
+
+.achievments-images {
+    margin-left: 50px;
+    width: 250px;
+    height: 150px;
+}
+
+.skills-left {
+    font-size: xx-large;
+    width: 50%;
+}
+
+.skills-right {
+    font-size: xx-large;
+    width: 50%;
+}
+
+.skills {
+    display: flex;
+}
+
+.contact {
+    display: flex;
+}
+
+.images-contact {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    padding: 30px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.images-contact:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+.right-contact p {
+    padding: 34px;
+}
+
+.travel-images {
+    margin-left: 50px;
+    width: 250px;
+    height: 150px;
+    padding-top: 20px;
+    transition: 0.3s;
+}
+
+.travel-images:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.travel-links {
+    color: white;
+    text-decoration: none;
+}
+.languages-logo{
+    backdrop-filter: blur(10px);
+        width: 300px;
+        height: 200px;
+        margin-left: 0px;
+}
+.languages-logo th,td{
+    border: 1px solid rgb(255, 255, 255);
+        height: 40px;
+       font-size: x-large;
+       text-align: center;
+}
+.skills-photos{
+    width: 70px;
+    height: 70px;
+}
